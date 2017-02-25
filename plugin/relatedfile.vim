@@ -21,7 +21,7 @@ if exists('g:relatedfile_user_dict')
     call extend(g:relatedfile_dict, g:relatedfile_user_dict)
 endif
 
-python << PYEOF
+python3 << PYEOF
 
 import vim
 from os import path
@@ -54,4 +54,4 @@ def open_related_file():
 
 PYEOF
 
-command! OpenRelatedFile python open_related_file() 
+command! OpenRelatedFile python3 open_related_file() 
