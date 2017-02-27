@@ -9,7 +9,7 @@
 " Options:      g:relatedfile_user_dict
 "==================================================
 
-if exists("g:relatedfile_loaded") || !has("python")
+if exists("g:relatedfile_loaded") || !has("python3")
     finish
 endif
 
